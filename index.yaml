@@ -1,0 +1,67 @@
+apiVersion: v1
+entries:
+  aws-load-balancer-controller:
+  - apiVersion: v2
+    appVersion: v2.6.2
+    created: "2023-12-03T21:13:18.106376016+01:00"
+    description: AWS Load Balancer Controller Helm chart for Kubernetes
+    digest: 14b6eb4773436f29bc3cd93ceb7a8b202955b021d23852adebc634b81d2f64c9
+    home: https://github.com/aws/eks-charts
+    icon: https://raw.githubusercontent.com/aws/eks-charts/master/docs/logo/aws.png
+    keywords:
+    - eks
+    - alb
+    - load balancer
+    - ingress
+    - nlb
+    maintainers:
+    - email: kishorj@users.noreply.github.com
+      name: kishorj
+      url: https://github.com/kishorj
+    - email: m00nf1sh@users.noreply.github.com
+      name: m00nf1sh
+      url: https://github.com/m00nf1sh
+    name: aws-load-balancer-controller
+    sources:
+    - https://github.com/aws/eks-charts
+    urls:
+    - https://github.com/Cliq-Infra/helm-charts/aws-load-balancer-controller-1.6.2.tgz
+    version: 1.6.2
+  metrics-server:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: added
+          description: "Added default Metrics Server resource requests."
+        - kind: changed
+          description: "Updated the Metrics Server OCI image to v0.6.3."
+        - kind: changed
+          description: "Updated the addon resizer OCI image to v1.8.19."
+        - kind: changed
+          description: "Changed the default addon resizer nanny resource configuration to match the documented Metrics Server autoscaling values."
+    apiVersion: v2
+    appVersion: 0.6.4
+    created: "2023-12-03T21:13:18.10739311+01:00"
+    description: Metrics Server is a scalable, efficient source of container resource
+      metrics for Kubernetes built-in autoscaling pipelines.
+    digest: 09d04f50bf9e8df122ce289a5f8bbab421a7a0be7c5de40f745e74b7ea3b064e
+    home: https://github.com/kubernetes-sigs/metrics-server
+    icon: https://avatars.githubusercontent.com/u/36015203?s=400&v=4
+    keywords:
+    - kubernetes
+    - metrics-server
+    - metrics
+    maintainers:
+    - name: stevehipwell
+      url: https://github.com/stevehipwell
+    - name: krmichel
+      url: https://github.com/krmichel
+    - name: endrec
+      url: https://github.com/endrec
+    name: metrics-server
+    sources:
+    - https://github.com/kubernetes-sigs/metrics-server
+    type: application
+    urls:
+    - https://github.com/Cliq-Infra/helm-charts/metrics-server-3.11.0.tgz
+    version: 3.11.0
+generated: "2023-12-03T21:13:18.104838372+01:00"
