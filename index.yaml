@@ -25,7 +25,7 @@ entries:
     sources:
     - https://github.com/aws/eks-charts
     urls:
-    - https://github.com/Cliq-Infra/helm-charts/aws-load-balancer-controller-1.6.2.tgz
+    - https://cliq-infra.github.io/helm-charts/aws-load-balancer-controller-1.6.2.tgz
     version: 1.6.2
   metrics-server:
   - annotations:
@@ -62,6 +62,6 @@ entries:
     - https://github.com/kubernetes-sigs/metrics-server
     type: application
     urls:
-    - https://github.com/Cliq-Infra/helm-charts/metrics-server-3.11.0.tgz
+    - https://cliq-infra.github.io/helm-charts/metrics-server-3.11.0.tgz
     version: 3.11.0
 generated: "2023-12-03T21:13:18.104838372+01:00"
